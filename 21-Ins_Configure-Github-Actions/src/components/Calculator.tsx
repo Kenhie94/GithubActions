@@ -16,12 +16,13 @@ export default function Calculator() {
   return (
     <div className="calculator">
       <p>
+        <h2>Calculator</h2>
         <input
           type="text"
           id="value"
           name="value"
           onChange={(event) => { setValue(Number(event.target.value)); }}
-          value="0"
+          value={value}
         />
       </p>
       <button className="btn btn-primary" type="button" onClick={handleAddClick}> Add </button>
