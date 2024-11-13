@@ -21,7 +21,7 @@ export default function Calculator() {
           id="value"
           name="value"
           onChange={(event) => { setValue(Number(event.target.value)); }}
-          value={value}
+          value="0"
         />
       </p>
       <button className="btn btn-primary" type="button" onClick={handleAddClick}> Add </button>
