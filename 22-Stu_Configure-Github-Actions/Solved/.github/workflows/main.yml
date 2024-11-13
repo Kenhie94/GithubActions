@@ -31,5 +31,4 @@ jobs:
         
       # Run lint
       - name: Run Lint
-        run: npm run lint
-        #Beauty
+        run: npm run lint;
